@@ -1,10 +1,10 @@
 //To see how the final website should work, run "node index.js".
 //Make sure you have installed all the dependencies with "npm i".
 //The password is ILoveProgramming!!
-import express from "express";
-import bodyParser from "body-parser";
-import { dirname } from "path";
-import { fileURLToPath } from "url";
+import express from "express"; //express package
+import bodyParser from "body-parser"; //bodyparser middleware
+import { dirname } from "path"; //form getting the directory from the project
+import { fileURLToPath } from "url"; //urlfilepath
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 
